@@ -79,6 +79,7 @@ def setup_port_forwarding():
 wait_for_device()
 setup_port_forwarding()
 
+
 @mcp.tool()
 def set_text(id: int, text: str) -> str:
     """Sets text on the element with the given ID (Vega JSON-RPC)."""
@@ -180,4 +181,4 @@ def input_key_event(keycode: int) -> str:
     return _shell(f"vda shell -- 'input keyevent {keycode}'")
 
 if __name__ == "__main__":
-    mcp.run(transport="http", host="0.0.0.0", port=8000)
+    mcp.run()
