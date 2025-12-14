@@ -1,0 +1,3068 @@
+[
+  {
+    "name": "KEY_ESC",
+    "code": 1,
+    "alternatives": [
+      "ESC",
+      "ESCAPE"
+    ]
+  },
+  {
+    "name": "KEY_1",
+    "code": 2,
+    "alternatives": [
+      "1"
+    ]
+  },
+  {
+    "name": "KEY_2",
+    "code": 3,
+    "alternatives": [
+      "2"
+    ]
+  },
+  {
+    "name": "KEY_3",
+    "code": 4,
+    "alternatives": [
+      "3"
+    ]
+  },
+  {
+    "name": "KEY_4",
+    "code": 5,
+    "alternatives": [
+      "4"
+    ]
+  },
+  {
+    "name": "KEY_5",
+    "code": 6,
+    "alternatives": [
+      "5"
+    ]
+  },
+  {
+    "name": "KEY_6",
+    "code": 7,
+    "alternatives": [
+      "6"
+    ]
+  },
+  {
+    "name": "KEY_7",
+    "code": 8,
+    "alternatives": [
+      "7"
+    ]
+  },
+  {
+    "name": "KEY_8",
+    "code": 9,
+    "alternatives": [
+      "8"
+    ]
+  },
+  {
+    "name": "KEY_9",
+    "code": 10,
+    "alternatives": [
+      "9"
+    ]
+  },
+  {
+    "name": "KEY_0",
+    "code": 11,
+    "alternatives": [
+      "0"
+    ]
+  },
+  {
+    "name": "KEY_MINUS",
+    "code": 12,
+    "alternatives": [
+      "-",
+      "MINUS"
+    ]
+  },
+  {
+    "name": "KEY_EQUAL",
+    "code": 13,
+    "alternatives": [
+      "EQUAL",
+      "="
+    ]
+  },
+  {
+    "name": "KEY_BACKSPACE",
+    "code": 14,
+    "alternatives": [
+      "BACKSPACE"
+    ]
+  },
+  {
+    "name": "KEY_TAB",
+    "code": 15,
+    "alternatives": [
+      "TAB"
+    ]
+  },
+  {
+    "name": "KEY_Q",
+    "code": 16,
+    "alternatives": [
+      "Q"
+    ]
+  },
+  {
+    "name": "KEY_W",
+    "code": 17,
+    "alternatives": [
+      "W"
+    ]
+  },
+  {
+    "name": "KEY_E",
+    "code": 18,
+    "alternatives": [
+      "E"
+    ]
+  },
+  {
+    "name": "KEY_R",
+    "code": 19,
+    "alternatives": [
+      "R"
+    ]
+  },
+  {
+    "name": "KEY_T",
+    "code": 20,
+    "alternatives": [
+      "T"
+    ]
+  },
+  {
+    "name": "KEY_Y",
+    "code": 21,
+    "alternatives": [
+      "Y"
+    ]
+  },
+  {
+    "name": "KEY_U",
+    "code": 22,
+    "alternatives": [
+      "U"
+    ]
+  },
+  {
+    "name": "KEY_I",
+    "code": 23,
+    "alternatives": [
+      "I"
+    ]
+  },
+  {
+    "name": "KEY_O",
+    "code": 24,
+    "alternatives": [
+      "O"
+    ]
+  },
+  {
+    "name": "KEY_P",
+    "code": 25,
+    "alternatives": [
+      "P"
+    ]
+  },
+  {
+    "name": "KEY_LEFTBRACE",
+    "code": 26,
+    "alternatives": [
+      "LEFTBRACE"
+    ]
+  },
+  {
+    "name": "KEY_RIGHTBRACE",
+    "code": 27,
+    "alternatives": [
+      "RIGHTBRACE"
+    ]
+  },
+  {
+    "name": "KEY_ENTER",
+    "code": 28,
+    "alternatives": [
+      "ENTER",
+      "RETURN"
+    ]
+  },
+  {
+    "name": "KEY_LEFTCTRL",
+    "code": 29,
+    "alternatives": [
+      "LEFTCTRL"
+    ]
+  },
+  {
+    "name": "KEY_A",
+    "code": 30,
+    "alternatives": [
+      "A"
+    ]
+  },
+  {
+    "name": "KEY_S",
+    "code": 31,
+    "alternatives": [
+      "S"
+    ]
+  },
+  {
+    "name": "KEY_D",
+    "code": 32,
+    "alternatives": [
+      "D"
+    ]
+  },
+  {
+    "name": "KEY_F",
+    "code": 33,
+    "alternatives": [
+      "F"
+    ]
+  },
+  {
+    "name": "KEY_G",
+    "code": 34,
+    "alternatives": [
+      "G"
+    ]
+  },
+  {
+    "name": "KEY_H",
+    "code": 35,
+    "alternatives": [
+      "H"
+    ]
+  },
+  {
+    "name": "KEY_J",
+    "code": 36,
+    "alternatives": [
+      "J"
+    ]
+  },
+  {
+    "name": "KEY_K",
+    "code": 37,
+    "alternatives": [
+      "K"
+    ]
+  },
+  {
+    "name": "KEY_L",
+    "code": 38,
+    "alternatives": [
+      "L"
+    ]
+  },
+  {
+    "name": "KEY_SEMICOLON",
+    "code": 39,
+    "alternatives": [
+      "SEMICOLON"
+    ]
+  },
+  {
+    "name": "KEY_APOSTROPHE",
+    "code": 40,
+    "alternatives": [
+      "APOSTROPHE"
+    ]
+  },
+  {
+    "name": "KEY_GRAVE",
+    "code": 41,
+    "alternatives": [
+      "GRAVE"
+    ]
+  },
+  {
+    "name": "KEY_LEFTSHIFT",
+    "code": 42,
+    "alternatives": [
+      "LEFTSHIFT"
+    ]
+  },
+  {
+    "name": "KEY_BACKSLASH",
+    "code": 43,
+    "alternatives": [
+      "BACKSLASH"
+    ]
+  },
+  {
+    "name": "KEY_Z",
+    "code": 44,
+    "alternatives": [
+      "Z"
+    ]
+  },
+  {
+    "name": "KEY_X",
+    "code": 45,
+    "alternatives": [
+      "X"
+    ]
+  },
+  {
+    "name": "KEY_C",
+    "code": 46,
+    "alternatives": [
+      "C"
+    ]
+  },
+  {
+    "name": "KEY_V",
+    "code": 47,
+    "alternatives": [
+      "V"
+    ]
+  },
+  {
+    "name": "KEY_B",
+    "code": 48,
+    "alternatives": [
+      "B"
+    ]
+  },
+  {
+    "name": "KEY_N",
+    "code": 49,
+    "alternatives": [
+      "N"
+    ]
+  },
+  {
+    "name": "KEY_M",
+    "code": 50,
+    "alternatives": [
+      "M"
+    ]
+  },
+  {
+    "name": "KEY_COMMA",
+    "code": 51,
+    "alternatives": [
+      "COMMA"
+    ]
+  },
+  {
+    "name": "KEY_DOT",
+    "code": 52,
+    "alternatives": [
+      "DOT"
+    ]
+  },
+  {
+    "name": "KEY_SLASH",
+    "code": 53,
+    "alternatives": [
+      "SLASH"
+    ]
+  },
+  {
+    "name": "KEY_RIGHTSHIFT",
+    "code": 54,
+    "alternatives": [
+      "RIGHTSHIFT"
+    ]
+  },
+  {
+    "name": "KEY_KPASTERISK",
+    "code": 55,
+    "alternatives": [
+      "NUMPADASTERISK",
+      "NUMPAD_ASTERISK",
+      "KPASTERISK"
+    ]
+  },
+  {
+    "name": "KEY_LEFTALT",
+    "code": 56,
+    "alternatives": [
+      "LEFTALT"
+    ]
+  },
+  {
+    "name": "KEY_SPACE",
+    "code": 57,
+    "alternatives": [
+      " ",
+      "SPACE"
+    ]
+  },
+  {
+    "name": "KEY_CAPSLOCK",
+    "code": 58,
+    "alternatives": [
+      "CAPSLOCK"
+    ]
+  },
+  {
+    "name": "KEY_F1",
+    "code": 59,
+    "alternatives": [
+      "F1"
+    ]
+  },
+  {
+    "name": "KEY_F2",
+    "code": 60,
+    "alternatives": [
+      "F2"
+    ]
+  },
+  {
+    "name": "KEY_F3",
+    "code": 61,
+    "alternatives": [
+      "F3"
+    ]
+  },
+  {
+    "name": "KEY_F4",
+    "code": 62,
+    "alternatives": [
+      "F4"
+    ]
+  },
+  {
+    "name": "KEY_F5",
+    "code": 63,
+    "alternatives": [
+      "F5"
+    ]
+  },
+  {
+    "name": "KEY_F6",
+    "code": 64,
+    "alternatives": [
+      "F6"
+    ]
+  },
+  {
+    "name": "KEY_F7",
+    "code": 65,
+    "alternatives": [
+      "F7"
+    ]
+  },
+  {
+    "name": "KEY_F8",
+    "code": 66,
+    "alternatives": [
+      "F8"
+    ]
+  },
+  {
+    "name": "KEY_F9",
+    "code": 67,
+    "alternatives": [
+      "F9"
+    ]
+  },
+  {
+    "name": "KEY_F10",
+    "code": 68,
+    "alternatives": [
+      "F10"
+    ]
+  },
+  {
+    "name": "KEY_NUMLOCK",
+    "code": 69,
+    "alternatives": [
+      "NUMLOCK"
+    ]
+  },
+  {
+    "name": "KEY_SCROLLLOCK",
+    "code": 70,
+    "alternatives": [
+      "SCROLLLOCK"
+    ]
+  },
+  {
+    "name": "KEY_KP7",
+    "code": 71,
+    "alternatives": [
+      "NUMPAD7",
+      "KP7",
+      "NUMPAD_7"
+    ]
+  },
+  {
+    "name": "KEY_KP8",
+    "code": 72,
+    "alternatives": [
+      "KP8",
+      "NUMPAD_8",
+      "NUMPAD8"
+    ]
+  },
+  {
+    "name": "KEY_KP9",
+    "code": 73,
+    "alternatives": [
+      "KP9",
+      "NUMPAD_9",
+      "NUMPAD9"
+    ]
+  },
+  {
+    "name": "KEY_KPMINUS",
+    "code": 74,
+    "alternatives": [
+      "NUMPADMINUS",
+      "KPMINUS",
+      "NUMPAD_MINUS"
+    ]
+  },
+  {
+    "name": "KEY_KP4",
+    "code": 75,
+    "alternatives": [
+      "KP4",
+      "NUMPAD_4",
+      "NUMPAD4"
+    ]
+  },
+  {
+    "name": "KEY_KP5",
+    "code": 76,
+    "alternatives": [
+      "NUMPAD5",
+      "KP5",
+      "NUMPAD_5"
+    ]
+  },
+  {
+    "name": "KEY_KP6",
+    "code": 77,
+    "alternatives": [
+      "NUMPAD_6",
+      "KP6",
+      "NUMPAD6"
+    ]
+  },
+  {
+    "name": "KEY_KPPLUS",
+    "code": 78,
+    "alternatives": [
+      "NUMPADPLUS",
+      "NUMPAD_PLUS",
+      "KPPLUS"
+    ]
+  },
+  {
+    "name": "KEY_KP1",
+    "code": 79,
+    "alternatives": [
+      "NUMPAD1",
+      "KP1",
+      "NUMPAD_1"
+    ]
+  },
+  {
+    "name": "KEY_KP2",
+    "code": 80,
+    "alternatives": [
+      "KP2",
+      "NUMPAD2",
+      "NUMPAD_2"
+    ]
+  },
+  {
+    "name": "KEY_KP3",
+    "code": 81,
+    "alternatives": [
+      "NUMPAD3",
+      "KP3",
+      "NUMPAD_3"
+    ]
+  },
+  {
+    "name": "KEY_KP0",
+    "code": 82,
+    "alternatives": [
+      "KP0",
+      "NUMPAD_0",
+      "NUMPAD0"
+    ]
+  },
+  {
+    "name": "KEY_KPDOT",
+    "code": 83,
+    "alternatives": [
+      "NUMPADDOT",
+      "KPDOT",
+      "NUMPAD_DOT"
+    ]
+  },
+  {
+    "name": "KEY_ZENKAKUHANKAKU",
+    "code": 85,
+    "alternatives": [
+      "ZENKAKUHANKAKU"
+    ]
+  },
+  {
+    "name": "KEY_102ND",
+    "code": 86,
+    "alternatives": [
+      "102ND"
+    ]
+  },
+  {
+    "name": "KEY_F11",
+    "code": 87,
+    "alternatives": [
+      "F11"
+    ]
+  },
+  {
+    "name": "KEY_F12",
+    "code": 88,
+    "alternatives": [
+      "F12"
+    ]
+  },
+  {
+    "name": "KEY_RO",
+    "code": 89,
+    "alternatives": [
+      "RO"
+    ]
+  },
+  {
+    "name": "KEY_KATAKANA",
+    "code": 90,
+    "alternatives": [
+      "KATAKANA"
+    ]
+  },
+  {
+    "name": "KEY_HIRAGANA",
+    "code": 91,
+    "alternatives": [
+      "HIRAGANA"
+    ]
+  },
+  {
+    "name": "KEY_HENKAN",
+    "code": 92,
+    "alternatives": [
+      "HENKAN"
+    ]
+  },
+  {
+    "name": "KEY_KATAKANAHIRAGANA",
+    "code": 93,
+    "alternatives": [
+      "KATAKANAHIRAGANA"
+    ]
+  },
+  {
+    "name": "KEY_MUHENKAN",
+    "code": 94,
+    "alternatives": [
+      "MUHENKAN"
+    ]
+  },
+  {
+    "name": "KEY_KPJPCOMMA",
+    "code": 95,
+    "alternatives": [
+      "NUMPAD_JPCOMMA",
+      "NUMPADJPCOMMA",
+      "KPJPCOMMA"
+    ]
+  },
+  {
+    "name": "KEY_KPENTER",
+    "code": 96,
+    "alternatives": [
+      "KPENTER",
+      "NUMPADENTER",
+      "NUMPAD_ENTER"
+    ]
+  },
+  {
+    "name": "KEY_RIGHTCTRL",
+    "code": 97,
+    "alternatives": [
+      "RIGHTCTRL"
+    ]
+  },
+  {
+    "name": "KEY_KPSLASH",
+    "code": 98,
+    "alternatives": [
+      "NUMPAD_SLASH",
+      "KPSLASH",
+      "NUMPADSLASH"
+    ]
+  },
+  {
+    "name": "KEY_SYSRQ",
+    "code": 99,
+    "alternatives": [
+      "SYSRQ"
+    ]
+  },
+  {
+    "name": "KEY_RIGHTALT",
+    "code": 100,
+    "alternatives": [
+      "RIGHTALT"
+    ]
+  },
+  {
+    "name": "KEY_LINEFEED",
+    "code": 101,
+    "alternatives": [
+      "LINEFEED"
+    ]
+  },
+  {
+    "name": "KEY_HOME",
+    "code": 102,
+    "alternatives": [
+      "HOME"
+    ]
+  },
+  {
+    "name": "KEY_UP",
+    "code": 103,
+    "alternatives": [
+      "UP"
+    ]
+  },
+  {
+    "name": "KEY_PAGEUP",
+    "code": 104,
+    "alternatives": [
+      "PAGEUP"
+    ]
+  },
+  {
+    "name": "KEY_LEFT",
+    "code": 105,
+    "alternatives": [
+      "LEFT"
+    ]
+  },
+  {
+    "name": "KEY_RIGHT",
+    "code": 106,
+    "alternatives": [
+      "RIGHT"
+    ]
+  },
+  {
+    "name": "KEY_END",
+    "code": 107,
+    "alternatives": [
+      "END"
+    ]
+  },
+  {
+    "name": "KEY_DOWN",
+    "code": 108,
+    "alternatives": [
+      "DOWN"
+    ]
+  },
+  {
+    "name": "KEY_PAGEDOWN",
+    "code": 109,
+    "alternatives": [
+      "PAGEDOWN"
+    ]
+  },
+  {
+    "name": "KEY_INSERT",
+    "code": 110,
+    "alternatives": [
+      "INSERT"
+    ]
+  },
+  {
+    "name": "KEY_DELETE",
+    "code": 111,
+    "alternatives": [
+      "DELETE"
+    ]
+  },
+  {
+    "name": "KEY_MACRO",
+    "code": 112,
+    "alternatives": [
+      "MACRO"
+    ]
+  },
+  {
+    "name": "KEY_MUTE",
+    "code": 113,
+    "alternatives": [
+      "MUTE"
+    ]
+  },
+  {
+    "name": "KEY_VOLUMEDOWN",
+    "code": 114,
+    "alternatives": [
+      "VOLUMEDOWN"
+    ]
+  },
+  {
+    "name": "KEY_VOLUMEUP",
+    "code": 115,
+    "alternatives": [
+      "VOLUMEUP"
+    ]
+  },
+  {
+    "name": "KEY_POWER",
+    "code": 116,
+    "alternatives": [
+      "POWER"
+    ]
+  },
+  {
+    "name": "KEY_KPEQUAL",
+    "code": 117,
+    "alternatives": [
+      "NUMPAD_EQUAL",
+      "NUMPADEQUAL",
+      "KPEQUAL"
+    ]
+  },
+  {
+    "name": "KEY_KPPLUSMINUS",
+    "code": 118,
+    "alternatives": [
+      "KPPLUSMINUS",
+      "NUMPAD_PLUSMINUS",
+      "NUMPADPLUSMINUS"
+    ]
+  },
+  {
+    "name": "KEY_PAUSE",
+    "code": 119,
+    "alternatives": [
+      "PAUSE"
+    ]
+  },
+  {
+    "name": "KEY_SCALE",
+    "code": 120,
+    "alternatives": [
+      "SCALE"
+    ]
+  },
+  {
+    "name": "KEY_KPCOMMA",
+    "code": 121,
+    "alternatives": [
+      "NUMPADCOMMA",
+      "KPCOMMA",
+      "NUMPAD_COMMA"
+    ]
+  },
+  {
+    "name": "KEY_HANGUEL",
+    "code": 122,
+    "alternatives": [
+      "HANGUEL"
+    ]
+  },
+  {
+    "name": "KEY_HANJA",
+    "code": 123,
+    "alternatives": [
+      "HANJA"
+    ]
+  },
+  {
+    "name": "KEY_YEN",
+    "code": 124,
+    "alternatives": [
+      "YEN"
+    ]
+  },
+  {
+    "name": "KEY_LEFTMETA",
+    "code": 125,
+    "alternatives": [
+      "LEFTMETA"
+    ]
+  },
+  {
+    "name": "KEY_RIGHTMETA",
+    "code": 126,
+    "alternatives": [
+      "RIGHTMETA"
+    ]
+  },
+  {
+    "name": "KEY_COMPOSE",
+    "code": 127,
+    "alternatives": [
+      "COMPOSE"
+    ]
+  },
+  {
+    "name": "KEY_STOP",
+    "code": 128,
+    "alternatives": [
+      "STOP"
+    ]
+  },
+  {
+    "name": "KEY_AGAIN",
+    "code": 129,
+    "alternatives": [
+      "AGAIN"
+    ]
+  },
+  {
+    "name": "KEY_PROPS",
+    "code": 130,
+    "alternatives": [
+      "PROPS"
+    ]
+  },
+  {
+    "name": "KEY_UNDO",
+    "code": 131,
+    "alternatives": [
+      "UNDO"
+    ]
+  },
+  {
+    "name": "KEY_FRONT",
+    "code": 132,
+    "alternatives": [
+      "FRONT"
+    ]
+  },
+  {
+    "name": "KEY_COPY",
+    "code": 133,
+    "alternatives": [
+      "COPY"
+    ]
+  },
+  {
+    "name": "KEY_OPEN",
+    "code": 134,
+    "alternatives": [
+      "OPEN"
+    ]
+  },
+  {
+    "name": "KEY_PASTE",
+    "code": 135,
+    "alternatives": [
+      "PASTE"
+    ]
+  },
+  {
+    "name": "KEY_FIND",
+    "code": 136,
+    "alternatives": [
+      "FIND"
+    ]
+  },
+  {
+    "name": "KEY_CUT",
+    "code": 137,
+    "alternatives": [
+      "CUT"
+    ]
+  },
+  {
+    "name": "KEY_HELP",
+    "code": 138,
+    "alternatives": [
+      "HELP"
+    ]
+  },
+  {
+    "name": "KEY_MENU",
+    "code": 139,
+    "alternatives": [
+      "MENU"
+    ]
+  },
+  {
+    "name": "KEY_CALC",
+    "code": 140,
+    "alternatives": [
+      "CALC"
+    ]
+  },
+  {
+    "name": "KEY_SETUP",
+    "code": 141,
+    "alternatives": [
+      "SETUP"
+    ]
+  },
+  {
+    "name": "KEY_SLEEP",
+    "code": 142,
+    "alternatives": [
+      "SLEEP"
+    ]
+  },
+  {
+    "name": "KEY_WAKEUP",
+    "code": 143,
+    "alternatives": [
+      "WAKEUP"
+    ]
+  },
+  {
+    "name": "KEY_FILE",
+    "code": 144,
+    "alternatives": [
+      "FILE"
+    ]
+  },
+  {
+    "name": "KEY_SENDFILE",
+    "code": 145,
+    "alternatives": [
+      "SENDFILE"
+    ]
+  },
+  {
+    "name": "KEY_DELETEFILE",
+    "code": 146,
+    "alternatives": [
+      "DELETEFILE"
+    ]
+  },
+  {
+    "name": "KEY_XFER",
+    "code": 147,
+    "alternatives": [
+      "XFER"
+    ]
+  },
+  {
+    "name": "KEY_PROG1",
+    "code": 148,
+    "alternatives": [
+      "PROG1"
+    ]
+  },
+  {
+    "name": "KEY_PROG2",
+    "code": 149,
+    "alternatives": [
+      "PROG2"
+    ]
+  },
+  {
+    "name": "KEY_WWW",
+    "code": 150,
+    "alternatives": [
+      "WWW"
+    ]
+  },
+  {
+    "name": "KEY_MSDOS",
+    "code": 151,
+    "alternatives": [
+      "MSDOS"
+    ]
+  },
+  {
+    "name": "KEY_SCREENLOCK",
+    "code": 152,
+    "alternatives": [
+      "SCREENLOCK"
+    ]
+  },
+  {
+    "name": "KEY_DIRECTION",
+    "code": 153,
+    "alternatives": [
+      "DIRECTION"
+    ]
+  },
+  {
+    "name": "KEY_CYCLEWINDOWS",
+    "code": 154,
+    "alternatives": [
+      "CYCLEWINDOWS"
+    ]
+  },
+  {
+    "name": "KEY_MAIL",
+    "code": 155,
+    "alternatives": [
+      "MAIL"
+    ]
+  },
+  {
+    "name": "KEY_BOOKMARKS",
+    "code": 156,
+    "alternatives": [
+      "BOOKMARKS"
+    ]
+  },
+  {
+    "name": "KEY_COMPUTER",
+    "code": 157,
+    "alternatives": [
+      "COMPUTER"
+    ]
+  },
+  {
+    "name": "KEY_BACK",
+    "code": 158,
+    "alternatives": [
+      "BACK"
+    ]
+  },
+  {
+    "name": "KEY_FORWARD",
+    "code": 159,
+    "alternatives": [
+      "FORWARD"
+    ]
+  },
+  {
+    "name": "KEY_CLOSECD",
+    "code": 160,
+    "alternatives": [
+      "CLOSECD"
+    ]
+  },
+  {
+    "name": "KEY_EJECTCD",
+    "code": 161,
+    "alternatives": [
+      "EJECTCD"
+    ]
+  },
+  {
+    "name": "KEY_EJECTCLOSECD",
+    "code": 162,
+    "alternatives": [
+      "EJECTCLOSECD"
+    ]
+  },
+  {
+    "name": "KEY_NEXTSONG",
+    "code": 163,
+    "alternatives": [
+      "NEXTSONG"
+    ]
+  },
+  {
+    "name": "KEY_PLAYPAUSE",
+    "code": 164,
+    "alternatives": [
+      "PLAYPAUSE"
+    ]
+  },
+  {
+    "name": "KEY_PREVIOUSSONG",
+    "code": 165,
+    "alternatives": [
+      "PREVIOUSSONG"
+    ]
+  },
+  {
+    "name": "KEY_STOPCD",
+    "code": 166,
+    "alternatives": [
+      "STOPCD"
+    ]
+  },
+  {
+    "name": "KEY_RECORD",
+    "code": 167,
+    "alternatives": [
+      "RECORD"
+    ]
+  },
+  {
+    "name": "KEY_REWIND",
+    "code": 168,
+    "alternatives": [
+      "REWIND"
+    ]
+  },
+  {
+    "name": "KEY_PHONE",
+    "code": 169,
+    "alternatives": [
+      "PHONE"
+    ]
+  },
+  {
+    "name": "KEY_ISO",
+    "code": 170,
+    "alternatives": [
+      "ISO"
+    ]
+  },
+  {
+    "name": "KEY_CONFIG",
+    "code": 171,
+    "alternatives": [
+      "CONFIG"
+    ]
+  },
+  {
+    "name": "KEY_HOMEPAGE",
+    "code": 172,
+    "alternatives": [
+      "HOMEPAGE"
+    ]
+  },
+  {
+    "name": "KEY_REFRESH",
+    "code": 173,
+    "alternatives": [
+      "REFRESH"
+    ]
+  },
+  {
+    "name": "KEY_EXIT",
+    "code": 174,
+    "alternatives": [
+      "EXIT"
+    ]
+  },
+  {
+    "name": "KEY_MOVE",
+    "code": 175,
+    "alternatives": [
+      "MOVE"
+    ]
+  },
+  {
+    "name": "KEY_EDIT",
+    "code": 176,
+    "alternatives": [
+      "EDIT"
+    ]
+  },
+  {
+    "name": "KEY_SCROLLUP",
+    "code": 177,
+    "alternatives": [
+      "SCROLLUP"
+    ]
+  },
+  {
+    "name": "KEY_SCROLLDOWN",
+    "code": 178,
+    "alternatives": [
+      "SCROLLDOWN"
+    ]
+  },
+  {
+    "name": "KEY_KPLEFTPAREN",
+    "code": 179,
+    "alternatives": [
+      "KPLEFTPAREN",
+      "NUMPADLEFTPAREN",
+      "NUMPAD_LEFTPAREN"
+    ]
+  },
+  {
+    "name": "KEY_KPRIGHTPAREN",
+    "code": 180,
+    "alternatives": [
+      "KPRIGHTPAREN",
+      "NUMPADRIGHTPAREN",
+      "NUMPAD_RIGHTPAREN"
+    ]
+  },
+  {
+    "name": "KEY_NEW",
+    "code": 181,
+    "alternatives": [
+      "NEW"
+    ]
+  },
+  {
+    "name": "KEY_REDO",
+    "code": 182,
+    "alternatives": [
+      "REDO"
+    ]
+  },
+  {
+    "name": "KEY_F13",
+    "code": 183,
+    "alternatives": [
+      "F13"
+    ]
+  },
+  {
+    "name": "KEY_F14",
+    "code": 184,
+    "alternatives": [
+      "F14"
+    ]
+  },
+  {
+    "name": "KEY_F15",
+    "code": 185,
+    "alternatives": [
+      "F15"
+    ]
+  },
+  {
+    "name": "KEY_F16",
+    "code": 186,
+    "alternatives": [
+      "F16"
+    ]
+  },
+  {
+    "name": "KEY_F17",
+    "code": 187,
+    "alternatives": [
+      "F17"
+    ]
+  },
+  {
+    "name": "KEY_F18",
+    "code": 188,
+    "alternatives": [
+      "F18"
+    ]
+  },
+  {
+    "name": "KEY_F19",
+    "code": 189,
+    "alternatives": [
+      "F19"
+    ]
+  },
+  {
+    "name": "KEY_F20",
+    "code": 190,
+    "alternatives": [
+      "F20"
+    ]
+  },
+  {
+    "name": "KEY_F21",
+    "code": 191,
+    "alternatives": [
+      "F21"
+    ]
+  },
+  {
+    "name": "KEY_F22",
+    "code": 192,
+    "alternatives": [
+      "F22"
+    ]
+  },
+  {
+    "name": "KEY_F23",
+    "code": 193,
+    "alternatives": [
+      "F23"
+    ]
+  },
+  {
+    "name": "KEY_F24",
+    "code": 194,
+    "alternatives": [
+      "F24"
+    ]
+  },
+  {
+    "name": "KEY_PLAYCD",
+    "code": 200,
+    "alternatives": [
+      "PLAYCD"
+    ]
+  },
+  {
+    "name": "KEY_PAUSECD",
+    "code": 201,
+    "alternatives": [
+      "PAUSECD"
+    ]
+  },
+  {
+    "name": "KEY_PROG3",
+    "code": 202,
+    "alternatives": [
+      "PROG3"
+    ]
+  },
+  {
+    "name": "KEY_PROG4",
+    "code": 203,
+    "alternatives": [
+      "PROG4"
+    ]
+  },
+  {
+    "name": "KEY_DASHBOARD",
+    "code": 204,
+    "alternatives": [
+      "DASHBOARD"
+    ]
+  },
+  {
+    "name": "KEY_SUSPEND",
+    "code": 205,
+    "alternatives": [
+      "SUSPEND"
+    ]
+  },
+  {
+    "name": "KEY_CLOSE",
+    "code": 206,
+    "alternatives": [
+      "CLOSE"
+    ]
+  },
+  {
+    "name": "KEY_PLAY",
+    "code": 207,
+    "alternatives": [
+      "PLAY"
+    ]
+  },
+  {
+    "name": "KEY_FASTFORWARD",
+    "code": 208,
+    "alternatives": [
+      "FASTFORWARD"
+    ]
+  },
+  {
+    "name": "KEY_BASSBOOST",
+    "code": 209,
+    "alternatives": [
+      "BASSBOOST"
+    ]
+  },
+  {
+    "name": "KEY_PRINT",
+    "code": 210,
+    "alternatives": [
+      "PRINT"
+    ]
+  },
+  {
+    "name": "KEY_HP",
+    "code": 211,
+    "alternatives": [
+      "HP"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA",
+    "code": 212,
+    "alternatives": [
+      "CAMERA"
+    ]
+  },
+  {
+    "name": "KEY_SOUND",
+    "code": 213,
+    "alternatives": [
+      "SOUND"
+    ]
+  },
+  {
+    "name": "KEY_QUESTION",
+    "code": 214,
+    "alternatives": [
+      "QUESTION"
+    ]
+  },
+  {
+    "name": "KEY_EMAIL",
+    "code": 215,
+    "alternatives": [
+      "EMAIL"
+    ]
+  },
+  {
+    "name": "KEY_CHAT",
+    "code": 216,
+    "alternatives": [
+      "CHAT"
+    ]
+  },
+  {
+    "name": "KEY_SEARCH",
+    "code": 217,
+    "alternatives": [
+      "SEARCH"
+    ]
+  },
+  {
+    "name": "KEY_CONNECT",
+    "code": 218,
+    "alternatives": [
+      "CONNECT"
+    ]
+  },
+  {
+    "name": "KEY_FINANCE",
+    "code": 219,
+    "alternatives": [
+      "FINANCE"
+    ]
+  },
+  {
+    "name": "KEY_SPORT",
+    "code": 220,
+    "alternatives": [
+      "SPORT"
+    ]
+  },
+  {
+    "name": "KEY_SHOP",
+    "code": 221,
+    "alternatives": [
+      "SHOP"
+    ]
+  },
+  {
+    "name": "KEY_ALTERASE",
+    "code": 222,
+    "alternatives": [
+      "ALTERASE"
+    ]
+  },
+  {
+    "name": "KEY_CANCEL",
+    "code": 223,
+    "alternatives": [
+      "CANCEL"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESSDOWN",
+    "code": 224,
+    "alternatives": [
+      "BRIGHTNESSDOWN"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESSUP",
+    "code": 225,
+    "alternatives": [
+      "BRIGHTNESSUP"
+    ]
+  },
+  {
+    "name": "KEY_MEDIA",
+    "code": 226,
+    "alternatives": [
+      "MEDIA"
+    ]
+  },
+  {
+    "name": "KEY_SWITCHVIDEOMODE",
+    "code": 227,
+    "alternatives": [
+      "SWITCHVIDEOMODE"
+    ]
+  },
+  {
+    "name": "KEY_KBDILLUMTOGGLE",
+    "code": 228,
+    "alternatives": [
+      "KBDILLUMTOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_KBDILLUMDOWN",
+    "code": 229,
+    "alternatives": [
+      "KBDILLUMDOWN"
+    ]
+  },
+  {
+    "name": "KEY_KBDILLUMUP",
+    "code": 230,
+    "alternatives": [
+      "KBDILLUMUP"
+    ]
+  },
+  {
+    "name": "KEY_SEND",
+    "code": 231,
+    "alternatives": [
+      "SEND"
+    ]
+  },
+  {
+    "name": "KEY_REPLY",
+    "code": 232,
+    "alternatives": [
+      "REPLY"
+    ]
+  },
+  {
+    "name": "KEY_FORWARDMAIL",
+    "code": 233,
+    "alternatives": [
+      "FORWARDMAIL"
+    ]
+  },
+  {
+    "name": "KEY_SAVE",
+    "code": 234,
+    "alternatives": [
+      "SAVE"
+    ]
+  },
+  {
+    "name": "KEY_DOCUMENTS",
+    "code": 235,
+    "alternatives": [
+      "DOCUMENTS"
+    ]
+  },
+  {
+    "name": "KEY_BATTERY",
+    "code": 236,
+    "alternatives": [
+      "BATTERY"
+    ]
+  },
+  {
+    "name": "KEY_BLUETOOTH",
+    "code": 237,
+    "alternatives": [
+      "BLUETOOTH"
+    ]
+  },
+  {
+    "name": "KEY_WLAN",
+    "code": 238,
+    "alternatives": [
+      "WLAN"
+    ]
+  },
+  {
+    "name": "KEY_UWB",
+    "code": 239,
+    "alternatives": [
+      "UWB"
+    ]
+  },
+  {
+    "name": "KEY_UNKNOWN",
+    "code": 240,
+    "alternatives": [
+      "UNKNOWN"
+    ]
+  },
+  {
+    "name": "KEY_VIDEO_NEXT",
+    "code": 241,
+    "alternatives": [
+      "VIDEO_NEXT"
+    ]
+  },
+  {
+    "name": "KEY_VIDEO_PREV",
+    "code": 242,
+    "alternatives": [
+      "VIDEO_PREV"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESS_CYCLE",
+    "code": 243,
+    "alternatives": [
+      "BRIGHTNESS_CYCLE"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESS_ZERO",
+    "code": 244,
+    "alternatives": [
+      "BRIGHTNESS_ZERO"
+    ]
+  },
+  {
+    "name": "KEY_DISPLAY_OFF",
+    "code": 245,
+    "alternatives": [
+      "DISPLAY_OFF"
+    ]
+  },
+  {
+    "name": "KEY_WIMAX",
+    "code": 246,
+    "alternatives": [
+      "WIMAX"
+    ]
+  },
+  {
+    "name": "KEY_RFKILL",
+    "code": 247,
+    "alternatives": [
+      "RFKILL"
+    ]
+  },
+  {
+    "name": "KEY_MICMUTE",
+    "code": 248,
+    "alternatives": [
+      "MICMUTE"
+    ]
+  },
+  {
+    "name": "KEY_OK",
+    "code": 352,
+    "alternatives": [
+      "OK"
+    ]
+  },
+  {
+    "name": "KEY_SELECT",
+    "code": 353,
+    "alternatives": [
+      "SELECT"
+    ]
+  },
+  {
+    "name": "KEY_GOTO",
+    "code": 354,
+    "alternatives": [
+      "GOTO"
+    ]
+  },
+  {
+    "name": "KEY_CLEAR",
+    "code": 355,
+    "alternatives": [
+      "CLEAR"
+    ]
+  },
+  {
+    "name": "KEY_POWER2",
+    "code": 356,
+    "alternatives": [
+      "POWER2"
+    ]
+  },
+  {
+    "name": "KEY_OPTION",
+    "code": 357,
+    "alternatives": [
+      "OPTION"
+    ]
+  },
+  {
+    "name": "KEY_INFO",
+    "code": 358,
+    "alternatives": [
+      "INFO"
+    ]
+  },
+  {
+    "name": "KEY_TIME",
+    "code": 359,
+    "alternatives": [
+      "TIME"
+    ]
+  },
+  {
+    "name": "KEY_VENDOR",
+    "code": 360,
+    "alternatives": [
+      "VENDOR"
+    ]
+  },
+  {
+    "name": "KEY_ARCHIVE",
+    "code": 361,
+    "alternatives": [
+      "ARCHIVE"
+    ]
+  },
+  {
+    "name": "KEY_PROGRAM",
+    "code": 362,
+    "alternatives": [
+      "PROGRAM"
+    ]
+  },
+  {
+    "name": "KEY_CHANNEL",
+    "code": 363,
+    "alternatives": [
+      "CHANNEL"
+    ]
+  },
+  {
+    "name": "KEY_FAVORITES",
+    "code": 364,
+    "alternatives": [
+      "FAVORITES"
+    ]
+  },
+  {
+    "name": "KEY_EPG",
+    "code": 365,
+    "alternatives": [
+      "EPG"
+    ]
+  },
+  {
+    "name": "KEY_PVR",
+    "code": 366,
+    "alternatives": [
+      "PVR"
+    ]
+  },
+  {
+    "name": "KEY_MHP",
+    "code": 367,
+    "alternatives": [
+      "MHP"
+    ]
+  },
+  {
+    "name": "KEY_LANGUAGE",
+    "code": 368,
+    "alternatives": [
+      "LANGUAGE"
+    ]
+  },
+  {
+    "name": "KEY_TITLE",
+    "code": 369,
+    "alternatives": [
+      "TITLE"
+    ]
+  },
+  {
+    "name": "KEY_SUBTITLE",
+    "code": 370,
+    "alternatives": [
+      "SUBTITLE"
+    ]
+  },
+  {
+    "name": "KEY_ANGLE",
+    "code": 371,
+    "alternatives": [
+      "ANGLE"
+    ]
+  },
+  {
+    "name": "KEY_ZOOM",
+    "code": 372,
+    "alternatives": [
+      "ZOOM"
+    ]
+  },
+  {
+    "name": "KEY_MODE",
+    "code": 373,
+    "alternatives": [
+      "MODE"
+    ]
+  },
+  {
+    "name": "KEY_KEYBOARD",
+    "code": 374,
+    "alternatives": [
+      "KEYBOARD"
+    ]
+  },
+  {
+    "name": "KEY_SCREEN",
+    "code": 375,
+    "alternatives": [
+      "SCREEN"
+    ]
+  },
+  {
+    "name": "KEY_PC",
+    "code": 376,
+    "alternatives": [
+      "PC"
+    ]
+  },
+  {
+    "name": "KEY_TV",
+    "code": 377,
+    "alternatives": [
+      "TV"
+    ]
+  },
+  {
+    "name": "KEY_TV2",
+    "code": 378,
+    "alternatives": [
+      "TV2"
+    ]
+  },
+  {
+    "name": "KEY_VCR",
+    "code": 379,
+    "alternatives": [
+      "VCR"
+    ]
+  },
+  {
+    "name": "KEY_VCR2",
+    "code": 380,
+    "alternatives": [
+      "VCR2"
+    ]
+  },
+  {
+    "name": "KEY_SAT",
+    "code": 381,
+    "alternatives": [
+      "SAT"
+    ]
+  },
+  {
+    "name": "KEY_SAT2",
+    "code": 382,
+    "alternatives": [
+      "SAT2"
+    ]
+  },
+  {
+    "name": "KEY_CD",
+    "code": 383,
+    "alternatives": [
+      "CD"
+    ]
+  },
+  {
+    "name": "KEY_TAPE",
+    "code": 384,
+    "alternatives": [
+      "TAPE"
+    ]
+  },
+  {
+    "name": "KEY_RADIO",
+    "code": 385,
+    "alternatives": [
+      "RADIO"
+    ]
+  },
+  {
+    "name": "KEY_TUNER",
+    "code": 386,
+    "alternatives": [
+      "TUNER"
+    ]
+  },
+  {
+    "name": "KEY_PLAYER",
+    "code": 387,
+    "alternatives": [
+      "PLAYER"
+    ]
+  },
+  {
+    "name": "KEY_TEXT",
+    "code": 388,
+    "alternatives": [
+      "TEXT"
+    ]
+  },
+  {
+    "name": "KEY_DVD",
+    "code": 389,
+    "alternatives": [
+      "DVD"
+    ]
+  },
+  {
+    "name": "KEY_AUX",
+    "code": 390,
+    "alternatives": [
+      "AUX"
+    ]
+  },
+  {
+    "name": "KEY_MP3",
+    "code": 391,
+    "alternatives": [
+      "MP3"
+    ]
+  },
+  {
+    "name": "KEY_AUDIO",
+    "code": 392,
+    "alternatives": [
+      "AUDIO"
+    ]
+  },
+  {
+    "name": "KEY_VIDEO",
+    "code": 393,
+    "alternatives": [
+      "VIDEO"
+    ]
+  },
+  {
+    "name": "KEY_DIRECTORY",
+    "code": 394,
+    "alternatives": [
+      "DIRECTORY"
+    ]
+  },
+  {
+    "name": "KEY_LIST",
+    "code": 395,
+    "alternatives": [
+      "LIST"
+    ]
+  },
+  {
+    "name": "KEY_MEMO",
+    "code": 396,
+    "alternatives": [
+      "MEMO"
+    ]
+  },
+  {
+    "name": "KEY_CALENDAR",
+    "code": 397,
+    "alternatives": [
+      "CALENDAR"
+    ]
+  },
+  {
+    "name": "KEY_RED",
+    "code": 398,
+    "alternatives": [
+      "RED"
+    ]
+  },
+  {
+    "name": "KEY_GREEN",
+    "code": 399,
+    "alternatives": [
+      "GREEN"
+    ]
+  },
+  {
+    "name": "KEY_YELLOW",
+    "code": 400,
+    "alternatives": [
+      "YELLOW"
+    ]
+  },
+  {
+    "name": "KEY_BLUE",
+    "code": 401,
+    "alternatives": [
+      "BLUE"
+    ]
+  },
+  {
+    "name": "KEY_CHANNELUP",
+    "code": 402,
+    "alternatives": [
+      "CHANNELUP"
+    ]
+  },
+  {
+    "name": "KEY_CHANNELDOWN",
+    "code": 403,
+    "alternatives": [
+      "CHANNELDOWN"
+    ]
+  },
+  {
+    "name": "KEY_FIRST",
+    "code": 404,
+    "alternatives": [
+      "FIRST"
+    ]
+  },
+  {
+    "name": "KEY_LAST",
+    "code": 405,
+    "alternatives": [
+      "LAST"
+    ]
+  },
+  {
+    "name": "KEY_AB",
+    "code": 406,
+    "alternatives": [
+      "AB"
+    ]
+  },
+  {
+    "name": "KEY_NEXT",
+    "code": 407,
+    "alternatives": [
+      "NEXT"
+    ]
+  },
+  {
+    "name": "KEY_RESTART",
+    "code": 408,
+    "alternatives": [
+      "RESTART"
+    ]
+  },
+  {
+    "name": "KEY_SLOW",
+    "code": 409,
+    "alternatives": [
+      "SLOW"
+    ]
+  },
+  {
+    "name": "KEY_SHUFFLE",
+    "code": 410,
+    "alternatives": [
+      "SHUFFLE"
+    ]
+  },
+  {
+    "name": "KEY_BREAK",
+    "code": 411,
+    "alternatives": [
+      "BREAK"
+    ]
+  },
+  {
+    "name": "KEY_PREVIOUS",
+    "code": 412,
+    "alternatives": [
+      "PREVIOUS"
+    ]
+  },
+  {
+    "name": "KEY_DIGITS",
+    "code": 413,
+    "alternatives": [
+      "DIGITS"
+    ]
+  },
+  {
+    "name": "KEY_TEEN",
+    "code": 414,
+    "alternatives": [
+      "TEEN"
+    ]
+  },
+  {
+    "name": "KEY_TWEN",
+    "code": 415,
+    "alternatives": [
+      "TWEN"
+    ]
+  },
+  {
+    "name": "KEY_VIDEOPHONE",
+    "code": 416,
+    "alternatives": [
+      "VIDEOPHONE"
+    ]
+  },
+  {
+    "name": "KEY_GAMES",
+    "code": 417,
+    "alternatives": [
+      "GAMES"
+    ]
+  },
+  {
+    "name": "KEY_ZOOMIN",
+    "code": 418,
+    "alternatives": [
+      "ZOOMIN"
+    ]
+  },
+  {
+    "name": "KEY_ZOOMOUT",
+    "code": 419,
+    "alternatives": [
+      "ZOOMOUT"
+    ]
+  },
+  {
+    "name": "KEY_ZOOMRESET",
+    "code": 420,
+    "alternatives": [
+      "ZOOMRESET"
+    ]
+  },
+  {
+    "name": "KEY_WORDPROCESSOR",
+    "code": 421,
+    "alternatives": [
+      "WORDPROCESSOR"
+    ]
+  },
+  {
+    "name": "KEY_EDITOR",
+    "code": 422,
+    "alternatives": [
+      "EDITOR"
+    ]
+  },
+  {
+    "name": "KEY_SPREADSHEET",
+    "code": 423,
+    "alternatives": [
+      "SPREADSHEET"
+    ]
+  },
+  {
+    "name": "KEY_GRAPHICSEDITOR",
+    "code": 424,
+    "alternatives": [
+      "GRAPHICSEDITOR"
+    ]
+  },
+  {
+    "name": "KEY_PRESENTATION",
+    "code": 425,
+    "alternatives": [
+      "PRESENTATION"
+    ]
+  },
+  {
+    "name": "KEY_DATABASE",
+    "code": 426,
+    "alternatives": [
+      "DATABASE"
+    ]
+  },
+  {
+    "name": "KEY_NEWS",
+    "code": 427,
+    "alternatives": [
+      "NEWS"
+    ]
+  },
+  {
+    "name": "KEY_VOICEMAIL",
+    "code": 428,
+    "alternatives": [
+      "VOICEMAIL"
+    ]
+  },
+  {
+    "name": "KEY_ADDRESSBOOK",
+    "code": 429,
+    "alternatives": [
+      "ADDRESSBOOK"
+    ]
+  },
+  {
+    "name": "KEY_MESSENGER",
+    "code": 430,
+    "alternatives": [
+      "MESSENGER"
+    ]
+  },
+  {
+    "name": "KEY_DISPLAYTOGGLE",
+    "code": 431,
+    "alternatives": [
+      "DISPLAYTOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_SPELLCHECK",
+    "code": 432,
+    "alternatives": [
+      "SPELLCHECK"
+    ]
+  },
+  {
+    "name": "KEY_LOGOFF",
+    "code": 433,
+    "alternatives": [
+      "LOGOFF"
+    ]
+  },
+  {
+    "name": "KEY_DOLLAR",
+    "code": 434,
+    "alternatives": [
+      "DOLLAR"
+    ]
+  },
+  {
+    "name": "KEY_EURO",
+    "code": 435,
+    "alternatives": [
+      "EURO"
+    ]
+  },
+  {
+    "name": "KEY_FRAMEBACK",
+    "code": 436,
+    "alternatives": [
+      "FRAMEBACK"
+    ]
+  },
+  {
+    "name": "KEY_FRAMEFORWARD",
+    "code": 437,
+    "alternatives": [
+      "FRAMEFORWARD"
+    ]
+  },
+  {
+    "name": "KEY_CONTEXT_MENU",
+    "code": 438,
+    "alternatives": [
+      "CONTEXT_MENU"
+    ]
+  },
+  {
+    "name": "KEY_MEDIA_REPEAT",
+    "code": 439,
+    "alternatives": [
+      "MEDIA_REPEAT"
+    ]
+  },
+  {
+    "name": "KEY_10CHANNELSUP",
+    "code": 440,
+    "alternatives": [
+      "10CHANNELSUP"
+    ]
+  },
+  {
+    "name": "KEY_10CHANNELSDOWN",
+    "code": 441,
+    "alternatives": [
+      "10CHANNELSDOWN"
+    ]
+  },
+  {
+    "name": "KEY_IMAGES",
+    "code": 442,
+    "alternatives": [
+      "IMAGES"
+    ]
+  },
+  {
+    "name": "KEY_DEL_EOL",
+    "code": 448,
+    "alternatives": [
+      "DEL_EOL"
+    ]
+  },
+  {
+    "name": "KEY_DEL_EOS",
+    "code": 449,
+    "alternatives": [
+      "DEL_EOS"
+    ]
+  },
+  {
+    "name": "KEY_INS_LINE",
+    "code": 450,
+    "alternatives": [
+      "INS_LINE"
+    ]
+  },
+  {
+    "name": "KEY_DEL_LINE",
+    "code": 451,
+    "alternatives": [
+      "DEL_LINE"
+    ]
+  },
+  {
+    "name": "KEY_FN",
+    "code": 464,
+    "alternatives": [
+      "FN"
+    ]
+  },
+  {
+    "name": "KEY_FN_ESC",
+    "code": 465,
+    "alternatives": [
+      "FN_ESC"
+    ]
+  },
+  {
+    "name": "KEY_FN_F1",
+    "code": 466,
+    "alternatives": [
+      "FN_F1"
+    ]
+  },
+  {
+    "name": "KEY_FN_F2",
+    "code": 467,
+    "alternatives": [
+      "FN_F2"
+    ]
+  },
+  {
+    "name": "KEY_FN_F3",
+    "code": 468,
+    "alternatives": [
+      "FN_F3"
+    ]
+  },
+  {
+    "name": "KEY_FN_F4",
+    "code": 469,
+    "alternatives": [
+      "FN_F4"
+    ]
+  },
+  {
+    "name": "KEY_FN_F5",
+    "code": 470,
+    "alternatives": [
+      "FN_F5"
+    ]
+  },
+  {
+    "name": "KEY_FN_F6",
+    "code": 471,
+    "alternatives": [
+      "FN_F6"
+    ]
+  },
+  {
+    "name": "KEY_FN_F7",
+    "code": 472,
+    "alternatives": [
+      "FN_F7"
+    ]
+  },
+  {
+    "name": "KEY_FN_F8",
+    "code": 473,
+    "alternatives": [
+      "FN_F8"
+    ]
+  },
+  {
+    "name": "KEY_FN_F9",
+    "code": 474,
+    "alternatives": [
+      "FN_F9"
+    ]
+  },
+  {
+    "name": "KEY_FN_F10",
+    "code": 475,
+    "alternatives": [
+      "FN_F10"
+    ]
+  },
+  {
+    "name": "KEY_FN_F11",
+    "code": 476,
+    "alternatives": [
+      "FN_F11"
+    ]
+  },
+  {
+    "name": "KEY_FN_F12",
+    "code": 477,
+    "alternatives": [
+      "FN_F12"
+    ]
+  },
+  {
+    "name": "KEY_FN_1",
+    "code": 478,
+    "alternatives": [
+      "FN_1"
+    ]
+  },
+  {
+    "name": "KEY_FN_2",
+    "code": 479,
+    "alternatives": [
+      "FN_2"
+    ]
+  },
+  {
+    "name": "KEY_FN_D",
+    "code": 480,
+    "alternatives": [
+      "FN_D"
+    ]
+  },
+  {
+    "name": "KEY_FN_E",
+    "code": 481,
+    "alternatives": [
+      "FN_E"
+    ]
+  },
+  {
+    "name": "KEY_FN_F",
+    "code": 482,
+    "alternatives": [
+      "FN_F"
+    ]
+  },
+  {
+    "name": "KEY_FN_S",
+    "code": 483,
+    "alternatives": [
+      "FN_S"
+    ]
+  },
+  {
+    "name": "KEY_FN_B",
+    "code": 484,
+    "alternatives": [
+      "FN_B"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT1",
+    "code": 497,
+    "alternatives": [
+      "BRL_DOT1"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT2",
+    "code": 498,
+    "alternatives": [
+      "BRL_DOT2"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT3",
+    "code": 499,
+    "alternatives": [
+      "BRL_DOT3"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT4",
+    "code": 500,
+    "alternatives": [
+      "BRL_DOT4"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT5",
+    "code": 501,
+    "alternatives": [
+      "BRL_DOT5"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT6",
+    "code": 502,
+    "alternatives": [
+      "BRL_DOT6"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT7",
+    "code": 503,
+    "alternatives": [
+      "BRL_DOT7"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT8",
+    "code": 504,
+    "alternatives": [
+      "BRL_DOT8"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT9",
+    "code": 505,
+    "alternatives": [
+      "BRL_DOT9"
+    ]
+  },
+  {
+    "name": "KEY_BRL_DOT10",
+    "code": 506,
+    "alternatives": [
+      "BRL_DOT10"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_0",
+    "code": 512,
+    "alternatives": [
+      "NUMERIC_0"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_1",
+    "code": 513,
+    "alternatives": [
+      "NUMERIC_1"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_2",
+    "code": 514,
+    "alternatives": [
+      "NUMERIC_2"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_3",
+    "code": 515,
+    "alternatives": [
+      "NUMERIC_3"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_4",
+    "code": 516,
+    "alternatives": [
+      "NUMERIC_4"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_5",
+    "code": 517,
+    "alternatives": [
+      "NUMERIC_5"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_6",
+    "code": 518,
+    "alternatives": [
+      "NUMERIC_6"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_7",
+    "code": 519,
+    "alternatives": [
+      "NUMERIC_7"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_8",
+    "code": 520,
+    "alternatives": [
+      "NUMERIC_8"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_9",
+    "code": 521,
+    "alternatives": [
+      "NUMERIC_9"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_STAR",
+    "code": 522,
+    "alternatives": [
+      "NUMERIC_STAR"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_POUND",
+    "code": 523,
+    "alternatives": [
+      "NUMERIC_POUND"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_FOCUS",
+    "code": 528,
+    "alternatives": [
+      "CAMERA_FOCUS"
+    ]
+  },
+  {
+    "name": "KEY_WPS_BUTTON",
+    "code": 529,
+    "alternatives": [
+      "WPS_BUTTON"
+    ]
+  },
+  {
+    "name": "KEY_TOUCHPAD_TOGGLE",
+    "code": 530,
+    "alternatives": [
+      "TOUCHPAD_TOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_TOUCHPAD_ON",
+    "code": 531,
+    "alternatives": [
+      "TOUCHPAD_ON"
+    ]
+  },
+  {
+    "name": "KEY_TOUCHPAD_OFF",
+    "code": 532,
+    "alternatives": [
+      "TOUCHPAD_OFF"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_ZOOMIN",
+    "code": 533,
+    "alternatives": [
+      "CAMERA_ZOOMIN"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_ZOOMOUT",
+    "code": 534,
+    "alternatives": [
+      "CAMERA_ZOOMOUT"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_UP",
+    "code": 535,
+    "alternatives": [
+      "CAMERA_UP"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_DOWN",
+    "code": 536,
+    "alternatives": [
+      "CAMERA_DOWN"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_LEFT",
+    "code": 537,
+    "alternatives": [
+      "CAMERA_LEFT"
+    ]
+  },
+  {
+    "name": "KEY_CAMERA_RIGHT",
+    "code": 538,
+    "alternatives": [
+      "CAMERA_RIGHT"
+    ]
+  },
+  {
+    "name": "KEY_ATTENDANT_ON",
+    "code": 539,
+    "alternatives": [
+      "ATTENDANT_ON"
+    ]
+  },
+  {
+    "name": "KEY_ATTENDANT_OFF",
+    "code": 540,
+    "alternatives": [
+      "ATTENDANT_OFF"
+    ]
+  },
+  {
+    "name": "KEY_ATTENDANT_TOGGLE",
+    "code": 541,
+    "alternatives": [
+      "ATTENDANT_TOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_LIGHTS_TOGGLE",
+    "code": 542,
+    "alternatives": [
+      "LIGHTS_TOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_ALS_TOGGLE",
+    "code": 560,
+    "alternatives": [
+      "ALS_TOGGLE"
+    ]
+  },
+  {
+    "name": "KEY_BUTTONCONFIG",
+    "code": 576,
+    "alternatives": [
+      "BUTTONCONFIG"
+    ]
+  },
+  {
+    "name": "KEY_TASKMANAGER",
+    "code": 577,
+    "alternatives": [
+      "TASKMANAGER"
+    ]
+  },
+  {
+    "name": "KEY_JOURNAL",
+    "code": 578,
+    "alternatives": [
+      "JOURNAL"
+    ]
+  },
+  {
+    "name": "KEY_CONTROLPANEL",
+    "code": 579,
+    "alternatives": [
+      "CONTROLPANEL"
+    ]
+  },
+  {
+    "name": "KEY_APPSELECT",
+    "code": 580,
+    "alternatives": [
+      "APPSELECT"
+    ]
+  },
+  {
+    "name": "KEY_SCREENSAVER",
+    "code": 581,
+    "alternatives": [
+      "SCREENSAVER"
+    ]
+  },
+  {
+    "name": "KEY_VOICECOMMAND",
+    "code": 582,
+    "alternatives": [
+      "VOICECOMMAND"
+    ]
+  },
+  {
+    "name": "KEY_ASSISTANT",
+    "code": 583,
+    "alternatives": [
+      "ASSISTANT"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESS_MIN",
+    "code": 592,
+    "alternatives": [
+      "BRIGHTNESS_MIN"
+    ]
+  },
+  {
+    "name": "KEY_BRIGHTNESS_MAX",
+    "code": 593,
+    "alternatives": [
+      "BRIGHTNESS_MAX"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_PREV",
+    "code": 608,
+    "alternatives": [
+      "KBDINPUTASSIST_PREV"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_NEXT",
+    "code": 609,
+    "alternatives": [
+      "KBDINPUTASSIST_NEXT"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_PREVGROUP",
+    "code": 610,
+    "alternatives": [
+      "KBDINPUTASSIST_PREVGROUP"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_NEXTGROUP",
+    "code": 611,
+    "alternatives": [
+      "KBDINPUTASSIST_NEXTGROUP"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_ACCEPT",
+    "code": 612,
+    "alternatives": [
+      "KBDINPUTASSIST_ACCEPT"
+    ]
+  },
+  {
+    "name": "KEY_KBDINPUTASSIST_CANCEL",
+    "code": 613,
+    "alternatives": [
+      "KBDINPUTASSIST_CANCEL"
+    ]
+  },
+  {
+    "name": "KEY_RIGHT_UP",
+    "code": 614,
+    "alternatives": [
+      "RIGHT_UP"
+    ]
+  },
+  {
+    "name": "KEY_RIGHT_DOWN",
+    "code": 615,
+    "alternatives": [
+      "RIGHT_DOWN"
+    ]
+  },
+  {
+    "name": "KEY_LEFT_UP",
+    "code": 616,
+    "alternatives": [
+      "LEFT_UP"
+    ]
+  },
+  {
+    "name": "KEY_LEFT_DOWN",
+    "code": 617,
+    "alternatives": [
+      "LEFT_DOWN"
+    ]
+  },
+  {
+    "name": "KEY_ROOT_MENU",
+    "code": 618,
+    "alternatives": [
+      "ROOT_MENU"
+    ]
+  },
+  {
+    "name": "KEY_MEDIA_TOP_MENU",
+    "code": 619,
+    "alternatives": [
+      "MEDIA_TOP_MENU"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_11",
+    "code": 620,
+    "alternatives": [
+      "NUMERIC_11"
+    ]
+  },
+  {
+    "name": "KEY_NUMERIC_12",
+    "code": 621,
+    "alternatives": [
+      "NUMERIC_12"
+    ]
+  },
+  {
+    "name": "KEY_AUDIO_DESC",
+    "code": 622,
+    "alternatives": [
+      "AUDIO_DESC"
+    ]
+  },
+  {
+    "name": "KEY_3D_MODE",
+    "code": 623,
+    "alternatives": [
+      "3D_MODE"
+    ]
+  },
+  {
+    "name": "KEY_NEXT_FAVORITE",
+    "code": 624,
+    "alternatives": [
+      "NEXT_FAVORITE"
+    ]
+  },
+  {
+    "name": "KEY_STOP_RECORD",
+    "code": 625,
+    "alternatives": [
+      "STOP_RECORD"
+    ]
+  },
+  {
+    "name": "KEY_PAUSE_RECORD",
+    "code": 626,
+    "alternatives": [
+      "PAUSE_RECORD"
+    ]
+  },
+  {
+    "name": "KEY_VOD",
+    "code": 627,
+    "alternatives": [
+      "VOD"
+    ]
+  },
+  {
+    "name": "KEY_UNMUTE",
+    "code": 628,
+    "alternatives": [
+      "UNMUTE"
+    ]
+  },
+  {
+    "name": "KEY_FASTREVERSE",
+    "code": 629,
+    "alternatives": [
+      "FASTREVERSE"
+    ]
+  },
+  {
+    "name": "KEY_SLOWREVERSE",
+    "code": 630,
+    "alternatives": [
+      "SLOWREVERSE"
+    ]
+  },
+  {
+    "name": "KEY_DATA",
+    "code": 631,
+    "alternatives": [
+      "DATA"
+    ]
+  },
+  {
+    "name": "KEY_ONSCREEN_KEYBOARD",
+    "code": 632,
+    "alternatives": [
+      "ONSCREEN_KEYBOARD"
+    ]
+  }
+]

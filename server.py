@@ -15,6 +15,23 @@ JSON_RPC_URL = os.getenv("JSON_RPC_URL", "http://localhost:8383/jsonrpc")
 
 mcp = FastMCP("Vega Virtual Device MCP")
 
+# --- Keycode Loading ---
+KEYCODES_FILE = os.path.join(os.path.dirname(__file__), "keycodes.json")
+KEYCODE_MAP = {}
+
+try:
+    with open(KEYCODES_FILE, 'r') as f:
+        keycodes_data = json.load(f)
+        for entry in keycodes_data:
+            # Map canonical name
+            KEYCODE_MAP[entry["name"].upper()] = entry["code"]
+            # Map all alternatives
+            for alt in entry["alternatives"]:
+                KEYCODE_MAP[str(alt).upper()] = entry["code"]
+    print(f"Loaded {len(KEYCODE_MAP)} keycode mappings.")
+except Exception as e:
+    print(f"Warning: Failed to load keycodes.json: {e}")
+
 
 # --- Helpers ---
 
@@ -131,6 +148,20 @@ def get_attribute(id: int, attribute: str) -> Any:
 def inject_input_key_event(input_key_event: str, hold_duration: int = 100) -> str:
     """Injects a key event (e.g., keycode) with a duration (Vega JSON-RPC)."""
     return str(_json_rpc_call("injectInputKeyEvent", {"inputKeyEvent": input_key_event, "holdDuration": hold_duration}))
+
+@mcp.tool()
+def press_button(name: str, hold_duration: int = 100) -> str:
+    """Presses a button by name (or alias) using the loaded keycode mapping."""
+    name_upper = name.upper()
+    if name_upper in KEYCODE_MAP:
+        code = KEYCODE_MAP[name_upper]
+        return str(_json_rpc_call("injectInputKeyEvent", {"inputKeyEvent": str(code), "holdDuration": hold_duration}))
+    
+    # Fallback: try to see if the input is already a number
+    if name.isdigit():
+         return str(_json_rpc_call("injectInputKeyEvent", {"inputKeyEvent": name, "holdDuration": hold_duration}))
+
+    return f"Error: Key name '{name}' not found in keycodes configuration."
 
 
 # --- Shell Tools ---
