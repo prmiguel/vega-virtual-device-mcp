@@ -71,6 +71,75 @@ def _shell(command: str) -> str:
         return f"Execution Error: {e}"
 
 
+def _get_pid_for_app(app_id: str) -> Optional[str]:
+    """
+    Parses 'vlcm list' output to find the PID for a given app_id.
+    
+    The expected output format of 'vlcm list' is a table with columns separated by
+    two or more spaces. We look for the row where 'application' matches our app_id
+    and return the 'pid'.
+    """
+    result = _shell("vda shell -- 'vlcm list'")
+    if "Command Failed" in result or not result:
+        print(f"Error getting vlcm list: {result}")
+        return None
+
+    lines = result.strip().split('\n')
+    if not lines:
+        return None
+
+    # Parse header
+    # Double-space split to handle multi-word headers if any, similar to the JS analysis
+    import re
+    col_split_pattern = re.compile(r'\s\s+')
+    
+    header_line = lines[0]
+    headers = col_split_pattern.split(header_line)
+    
+    try:
+        # We need to find the indices for specific columns
+        # Note: headers might be case sensitive or have extra spaces, cleaning them up a bit
+        # The JS code looked for "application" and "pid"
+        headers_cleaned = [h.strip() for h in headers]
+        
+        # Helper to find index safely
+        def get_idx(name):
+             for i, h in enumerate(headers_cleaned):
+                 if h == name: return i
+             return -1
+
+        app_idx = get_idx("application")
+        pid_idx = get_idx("pid")
+        
+        if app_idx == -1 or pid_idx == -1:
+             print(f"Could not find likely 'application' or 'pid' columns in header: {headers}")
+             return None
+
+        # Iterate through the rest of the lines
+        for line in lines[1:]:
+            line = line.strip()
+            if not line: continue
+            
+            cols = col_split_pattern.split(line)
+            
+            # Safety check on column count
+            if len(cols) <= max(app_idx, pid_idx):
+                continue
+                
+            current_app = cols[app_idx].strip()
+            
+            # The app_id in the row might be the raw ID or a full URI like orpheus://<id>
+            # The JS code checked: `orpheus://${cols[appIdx]}${args}` === appURI
+            # Let's try matching the app_id directly against the column value
+            if current_app == app_id or current_app.endswith(app_id):
+                 return cols[pid_idx].strip()
+                 
+    except Exception as e:
+        print(f"Error parsing vlcm list: {e}")
+        return None
+        
+    return None
+
 # --- JSON-RPC Tools ---
 
 def wait_for_device():
@@ -175,8 +244,12 @@ def launch_app(app_id: str) -> str:
 
 @mcp.tool()
 def terminate_app(app_id: str) -> str:
-    """Terminates an application via vlcm."""
-    return _shell(f"vda shell -- 'vlcm terminate-app --pkg-id {shlex.quote(app_id)} --force'")
+    """Terminates an application via vlcm using its PID."""
+    pid = _get_pid_for_app(app_id)
+    if not pid:
+         return f"Error: Could not find running application with ID '{app_id}' to terminate."
+    
+    return _shell(f"vda shell -- 'vlcm terminate-app --pid {pid} --force'")
 
 @mcp.tool()
 def install_app(remote_path: str) -> str:
