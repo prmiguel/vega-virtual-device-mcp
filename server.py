@@ -187,6 +187,11 @@ def take_screenshot() -> str:
     return str(_json_rpc_call("takeScreenshot", {}))
 
 @mcp.tool()
+def get_page_source() -> str:
+    """Retrieves the current page source (Vega JSON-RPC)."""
+    return str(_json_rpc_call("getPageSource", {}))
+
+@mcp.tool()
 def find_objects(selector_strategy: str, args: Dict[str, Any]) -> Any:
     """Finds element IDs matching the selector (Vega JSON-RPC).
     
