@@ -166,6 +166,90 @@ wait_for_device()
 setup_port_forwarding()
 
 
+# --- MCP Resources ---
+
+@mcp.resource("device://status")
+def get_device_status() -> str:
+    """Returns the current device connection status and configuration.
+    
+    This resource provides information about:
+    - Device connection status
+    - JSON-RPC endpoint availability
+    - Port forwarding status
+    """
+    status = {
+        "device": "Simulator",
+        "json_rpc_url": JSON_RPC_URL,
+        "port_forwarding": "tcp:8383",
+        "status": "connected"
+    }
+    
+    # Check if JSON-RPC is accessible
+    try:
+        response = requests.get(JSON_RPC_URL.replace("/jsonrpc", ""), timeout=2)
+        status["json_rpc_accessible"] = True
+    except:
+        status["json_rpc_accessible"] = False
+    
+    return json.dumps(status, indent=2)
+
+
+@mcp.resource("device://screenshot")
+def get_screenshot_resource() -> str:
+    """Returns the current screenshot of the device.
+    
+    This resource captures and returns a screenshot of the device's current state.
+    The screenshot is returned as a base64-encoded image.
+    """
+    result = _json_rpc_call("takeScreenshot", {})
+    if isinstance(result, str) and result.startswith("Error"):
+        return json.dumps({"error": result})
+    return json.dumps({"screenshot": result})
+
+
+@mcp.resource("device://page-source")
+def get_page_source_resource() -> str:
+    """Returns the current UI hierarchy/page source of the device.
+    
+    This resource provides the XML representation of the current UI elements,
+    useful for understanding the structure and available elements on screen.
+    """
+    result = _json_rpc_call("getPageSource", {})
+    if isinstance(result, str) and result.startswith("Error"):
+        return json.dumps({"error": result})
+    return json.dumps({"page_source": result}, indent=2)
+
+
+@mcp.resource("device://keycodes")
+def get_keycodes_resource() -> str:
+    """Returns the available keycode mappings for the press_button tool.
+    
+    This resource lists all valid button names and their corresponding keycodes
+    that can be used with the press_button tool. Includes both canonical names
+    and alternative aliases.
+    """
+    # Group keycodes by canonical name
+    keycodes_info = {}
+    
+    try:
+        with open(KEYCODES_FILE, 'r') as f:
+            keycodes_data = json.load(f)
+            for entry in keycodes_data:
+                keycodes_info[entry["name"]] = {
+                    "code": entry["code"],
+                    "alternatives": entry["alternatives"]
+                }
+    except Exception as e:
+        return json.dumps({"error": f"Failed to load keycodes: {e}"})
+    
+    return json.dumps({
+        "total_keycodes": len(keycodes_info),
+        "keycodes": keycodes_info
+    }, indent=2)
+
+
+# --- JSON-RPC Tools ---
+
 @mcp.tool()
 def set_text(id: int, text: str) -> str:
     """Sets text on the element with the given ID (Vega JSON-RPC)."""
