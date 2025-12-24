@@ -73,6 +73,42 @@ Interact via system shell commands (executed through `vda shell`).
 - `input_text(text: str)` - Types text via `input` command
 - `input_key_event(keycode: int)` - Sends key event via `input` command
 
+## Available Resources
+
+MCP resources provide read-only access to device state and information.
+
+### `device://status`
+Returns the current device connection status and configuration.
+
+**Response includes:**
+- Device name
+- JSON-RPC endpoint URL
+- Port forwarding configuration
+- Connection status
+- JSON-RPC accessibility check
+
+### `device://screenshot`
+Returns the current screenshot of the device as a base64-encoded image.
+
+**Use case:** Query the current visual state without executing a tool action.
+
+### `device://page-source`
+Returns the XML representation of the current UI hierarchy.
+
+**Use case:** Understand available UI elements and their structure before interacting with them.
+
+### `device://keycodes`
+Returns all available keycode mappings for the `press_button` tool.
+
+**Response includes:**
+- Total number of keycodes
+- Canonical key names
+- Key codes
+- Alternative aliases for each key
+
+**Use case:** Discover valid button names before calling `press_button`.
+
+
 ## Testing
 
 See [mcp-tools-tested.md](mcp-tools-tested.md) for a checklist to track manual testing of all MCP tools.
