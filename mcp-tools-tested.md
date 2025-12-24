@@ -9,7 +9,7 @@ This document tracks manual testing of all MCP tools defined in `server.py`.
 - [ ] `show_keyboard` - Shows keyboard for a specific element
 - [ ] `click_coordinate` - Clicks a specific coordinate on screen
 - [x] `take_screenshot` - Captures a screenshot
-- [ ] `get_page_source` - Retrieves current page source
+- [x] `get_page_source` - Retrieves current page source
 
 ### Element Finding & Attributes
 - [ ] `find_objects` - Finds element IDs by selector
